@@ -4,7 +4,7 @@ program:3:)  To print even and odd numbers and sum the total even and odd number
 program:4:)  Fizz Buzz Game prints which is multiple of 3 and 5 if both it prints FizzBuzz.
 program:5:)  Password generator with easy level and hard level
 program:6:)  checks the user guesses the letter
-program:7:)
+program:7:)  Swapping of two numbers using python.
 program:8:)
 program:9:)
 program:10:)
