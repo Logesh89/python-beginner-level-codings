@@ -5,6 +5,6 @@ program:4:)  Fizz Buzz Game prints which is multiple of 3 and 5 if both it print
 program:5:)  Password generator with easy level and hard level
 program:6:)  checks the user guesses the letter
 program:7:)  Swapping of two numbers using python.
-program:8:)
+program:8:)  Replace the blank spaces with random characters with python.
 program:9:)
 program:10:)
