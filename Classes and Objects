@@ -1,0 +1,14 @@
+class Laptop:
+    def __init__(self):
+        
+        self.ram=""
+        self.processor=""
+    def display(self):
+        print("Ram:",self.ram)
+        print("processor:",self.processor)
+hp=Laptop()
+hp.ram="6gb"
+hp.processor="i7"
+hp.display()
+
+        
