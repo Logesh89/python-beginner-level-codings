@@ -1,0 +1,11 @@
+class Dad:
+    def phone(self):
+        print("Dad's Mobile")
+
+     //Accessing dad's Mobile
+
+    def son(Dad):
+        print("Sons Laptop")
+        
+obj=Dad()
+obj.phone()
