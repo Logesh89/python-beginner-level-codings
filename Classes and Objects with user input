@@ -1,0 +1,13 @@
+class Student:
+    def __init__(self):
+        self.name=""
+        self.regnum=""
+    def display(self):
+        print("name:",self.name)
+        print("register Number:",self.regnum)
+s1=Student()
+s1.name=(input())
+s1.regnum=(input())
+s1.display()
+
+        
