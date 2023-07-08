@@ -1,0 +1,26 @@
+class Laptop:
+    chargertype="C Type"
+    def __init__(self):
+        self.brand=""
+        self.price=34
+    def setPrice(self,price):
+        self.price=price
+    def getPrice(self):
+        print(self.price)
+    @classmethod
+    def changeCharType(cls):
+        cls.changeChartype="B type"
+        print("Charger type is changed")
+    @staticmethod
+    def info():
+        print("This is laptop class")
+        
+hp=Laptop()
+hp.setPrice(20000)
+hp.getPrice()
+
+Laptop.changeCharType()
+hp.info()
+
+
+        
