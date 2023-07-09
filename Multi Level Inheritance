@@ -1,0 +1,22 @@
+class Grandpa:
+    def phone(self):
+        print("Grandpa's Mobile")
+
+class Dad(Grandpa):
+    def money(self):
+        print("Dad's Money")
+        
+class Mom:
+    def Sweet(self):
+        print("Mom's sweet")
+        
+class Son(Dad,Mom):
+    def Laptop(self):
+        print("Sons Laptop")
+ 
+obj=Son()       
+obj.money()
+obj.Sweet()
+
+obj1=Dad()
+obj1.phone()
