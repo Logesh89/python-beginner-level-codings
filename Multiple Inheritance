@@ -1,0 +1,17 @@
+//Multiple Inheritance
+
+class Dad:
+    def phone(self):
+        print("Dad's Mobile")
+        
+class Mom:
+    def Sweet(self):
+        print("Mom's sweet")
+        
+class Son(Dad,Mom):
+    def Laptop(self):
+        print("Sons Laptop")
+ 
+obj=Son()       
+obj.phone()
+obj.Sweet()
