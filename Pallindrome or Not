@@ -1,0 +1,8 @@
+a=input()
+b=""
+for i in a:
+    b=i+b
+if(a==b):
+    print("Pallindrome")
+else:
+    print("Not Pallindrome")
